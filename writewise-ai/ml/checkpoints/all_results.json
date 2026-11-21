@@ -1,0 +1,30 @@
+{
+  "TF-IDF + MLP": {
+    "qwk": 0.8875,
+    "mae": 0.7264,
+    "rmse": 1.0384,
+    "pearson": 0.8836,
+    "spearman": 0.9159
+  },
+  "LSTM": {
+    "qwk": 0.8854,
+    "mae": 0.7249,
+    "rmse": 1.0575,
+    "pearson": 0.884,
+    "spearman": 0.9111
+  },
+  "BiLSTM + Attention": {
+    "qwk": 0.8727,
+    "mae": 0.7501,
+    "rmse": 1.0835,
+    "pearson": 0.8697,
+    "spearman": 0.9017
+  },
+  "BiLSTM + Attn + Features (Proposed)": {
+    "qwk": 0.9097,
+    "mae": 0.656,
+    "rmse": 0.9812,
+    "pearson": 0.9071,
+    "spearman": 0.9371
+  }
+}

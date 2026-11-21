@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+writewise-ai/venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.sqlite3
+db.sqlite3
+
+# Node & Frontend dependencies/build
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+writewise-ai/frontend/node_modules/
+writewise-ai/frontend/dist/
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large dataset files exceeding GitHub 100MB limit
+ASAP2_train_sourcetexts.csv
+*.tar.gz
+*.zip
+
+# Logs
+logs/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
